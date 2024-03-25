@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup-form</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="nav-overlay">
+        <image
+          src="images/odin-lined.png"
+          alt="logo overlay image"
+          height="100px"
+        ></image>
+        <p class="overlay-text">ODIN</p>
+      </div>
+    </div>
+    <div class="container">
+      <header>
+        <p class="header-text">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started. <br />
+          You <em>know</em> you want to.
+        </p>
+      </header>
+      <section>
+        <p class="form-text">Let's do this!</p>
+        <form action="" method="post">
+          <div class="form-container">
+            <div class="form-column">
+              <div class="form-item">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form-item">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+
+              <div class="form-item">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+
+            <div class="form-column">
+              <div class="form-item">
+                <label for="phoneNumber">Phone Number</label>
+                <input
+                  type="Number"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div class="form-item">
+                <label for="confirmPassword">Confirm password</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+      </section>
+      <footer>
+        <div class="submit-area">
+        <input class="submit-btn" type="submit" value="Create Account" />
+    </form>
+</div>
+        <p class="footer-text">
+          Already have an account? <a href="log in">Log in</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

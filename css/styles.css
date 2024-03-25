@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+display: flex;
+
+}
+header {
+display: flex;
+height: 33vh;
+align-items: center;
+justify-content: center;
+background-color: whitesmoke;
+padding: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+.nav-container {
+display: flex;
+height: 100vh;
+flex: 0 0 33%;
+background-image: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.nav-overlay {
+    height: 120px;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.493);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+
+}
+
+.overlay-text {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+section {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 33vh;
+    padding: 20px;
+}
+
+.form-column {
+    width: 48%;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 32vh;
+    padding: 20px;
+}
+
+.submit-btn {
+    background-color: #596D48;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
+}
